@@ -37,7 +37,10 @@ def convert_input_to_binary(num_str, num_type):
     if num_type == 'decimal':
         num = int(num_str,10)
     elif num_type == 'hexadecimal':
+        if num_str.lower().startswith("0x"):
+            num_str = num_str[2:]
         num = int(num_str, 16)
+
     else:
         raise ValueError("The value type is neither decimal or hexadecimal.")
     return bin(num)
