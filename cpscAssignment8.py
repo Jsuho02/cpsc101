@@ -39,8 +39,7 @@ def convert_input_to_binary(num_str, num_type):
     elif num_type == 'hexadecimal':
         num = int(num_str, 16)
     else:
-        except ValueError:
-            print("The value type is neither decimal or hexadecimal.")
+        raise ValueError("The value type is neither decimal or hexadecimal.")
 
     
 if __name__ == "__main__":
