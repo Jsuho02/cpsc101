@@ -49,13 +49,13 @@ def convert_input_to_binary(num_str, num_type):
 def main():
     choice, value = program_start()
     num_type = detect_type(choice)
-    binary = convert_input_to_binary(num_str, num_type)
-    print(f"The number you selected was {num}, and the type was {num_type}")
+    binary = convert_input_to_binary(value, num_type)
+    print(f"The number you selected was {value}, and the type was {num_type}")
     print(f"Your input value in binary is {binary}")
 
 
 
     
 if __name__ == "__main__":
-    program_start()
+    main()
 
