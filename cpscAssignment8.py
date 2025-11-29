@@ -1,4 +1,4 @@
-# main()- first function requesting decimal or hexadecimal input
+# first function requesting decimal or hexadecimal input
 def program_start():
     
     while True:
@@ -45,7 +45,7 @@ def convert_input_to_binary(num_str, num_type):
 ### Main function to link the 3 others together
 def main():
     choice, value = program_start()
-    num_type = detect_type(num_type)
+    num_type = detect_type(choice)
     binary = convert_input_to_binary(num_str, num_type)
     print(f"The number you selected was {num}, and the type was {num_type}")
     print(f"Your input value in binary is {binary}")
