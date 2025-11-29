@@ -24,6 +24,16 @@ def program_start():
         else:
             print("Please choose d for decimal or h for hexadecimal input!")
 
+### Check whether it is decimal or hexadecimal input
+def detect_type(choice):
+    if choice =='d':
+        return "decimal"
+    elif choice == 'h':
+        return "hexadecimal"
+    
+### Function to convert inputted values to binary
+
+    
 if __name__ == "__main__":
     program_start()
 
