@@ -40,6 +40,8 @@ def convert_input_to_binary(num_str, num_type):
         num = int(num_str, 16)
     else:
         raise ValueError("The value type is neither decimal or hexadecimal.")
+    return bin(num)
+
 
     
 if __name__ == "__main__":
