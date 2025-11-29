@@ -13,4 +13,17 @@ def program_start():
             except ValueError:
                 print("That is not a valid decimal number!")
 
+        elif choice == 'h':
+            num_str = input("Please enter your hexadecimal number.")
+            try:
+                int(num_str,16)
+                print(f"Your hexadecimal value is {num_str}")
+                return choice, num_str
+            except ValueError:
+                print("That is not a valid hexadecimal number!")
+        else:
+            print("Please choose d for decimal or h for hexadecimal input!")
+
+if __name__ == "__main__":
+    program_start()
 
