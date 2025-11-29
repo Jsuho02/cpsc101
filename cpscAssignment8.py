@@ -42,6 +42,12 @@ def convert_input_to_binary(num_str, num_type):
         raise ValueError("The value type is neither decimal or hexadecimal.")
     return bin(num)
 
+### Main function to link the 3 others together
+def main():
+    choice, value = program_start()
+    num_type = detect_type(num_type)
+    binary = convert_input_to_binary(num_str, num_type):
+    
 
     
 if __name__ == "__main__":
