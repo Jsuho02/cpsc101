@@ -32,6 +32,7 @@ def detect_type(choice):
         return "hexadecimal"
     
 ### Function to convert inputted values to binary
+def_convert_input_to_binary(num_str, num_type):
 
     
 if __name__ == "__main__":
