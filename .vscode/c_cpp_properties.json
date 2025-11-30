@@ -1,0 +1,45 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win32",
+      "compilerPath": "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\mingw-w64\\bin\\g++.exe",
+      "intelliSenseMode": "gcc-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\include",
+        "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\mingw-w64\\include"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Users/joshu/Miniconda3/envs/cpp-dev/Library/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+
+        }
+    ],
+    "version": 4
+}

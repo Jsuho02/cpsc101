@@ -1,0 +1,7 @@
+{
+  "C_Cpp.default.compilerPath": "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\mingw-w64\\bin\\g++.exe",
+  "cmake.additionalCompilerSearchDirs": [
+    "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\mingw-w64\\bin",
+    "C:\\Users\\joshu\\miniconda3\\envs\\cpp-dev\\Library\\bin"
+  ]
+}
