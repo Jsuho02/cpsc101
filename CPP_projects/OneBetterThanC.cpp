@@ -14,10 +14,10 @@ string parse_input()
 
 // Function to check input
 bool is_hex(const string input) {
-    if (input.size()>2 &(input[0]=='0')&&(input[1] == 'x' ||input[1]=='x')){
+    if (input.size()>2&&(input[0]=='0')&&(input[1] == 'x' ||input[1]=='X')){
         return true;
     }
-    return false
+    return false;
 }
 // Function for converting to binary
 string to_binary(const string input){
@@ -31,8 +31,4 @@ string to_binary(const string input){
     // converting to binary using bitset
     bitset<32>binary(number);
     return binary.to_string();
-}
-    }
-    }
-
 }
