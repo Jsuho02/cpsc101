@@ -35,5 +35,7 @@ string to_binary(const string input){
 // connecting the functions
 int main() {
     string input = parse_input();
-    string_binary = to_binary(input);
+    string binary = to_binary(input);
+    cout<<"Binary: "<<to_binary(input)<<endl;
+    return 0;
 }
