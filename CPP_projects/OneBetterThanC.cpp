@@ -19,4 +19,12 @@ bool is_hex(const string input) {
     }
     return false
 }
+// Function for converting to binary
+string to_binary(const string input){
+    unsigned int number:
+    
+    if (is_hex(input)){
+        number = stoul(input, nullptr,16):
+    }
+
 }
