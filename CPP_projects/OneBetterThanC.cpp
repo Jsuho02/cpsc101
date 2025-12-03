@@ -25,6 +25,14 @@ string to_binary(const string input){
     
     if (is_hex(input)){
         number = stoul(input, nullptr,16):
+    }else{
+        number = stoul(input, nullptr,10):
+    }
+    // converting to binary using bitset
+    bitset<32>binary(number);
+    return binary to_strin();
+}
+    }
     }
 
 }
