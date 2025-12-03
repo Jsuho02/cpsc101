@@ -14,5 +14,9 @@ string parse_input()
 
 // Function to check input
 bool is_hex(const string input) {
-    if (input.size()>2 &(input[0]=='0')&&(input[1] == 'x' // input[1]=='x')){}
+    if (input.size()>2 &(input[0]=='0')&&(input[1] == 'x' ||input[1]=='x')){
+        return true;
+    }
+    return false
+}
 }
