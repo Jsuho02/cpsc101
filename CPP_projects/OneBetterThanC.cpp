@@ -32,3 +32,8 @@ string to_binary(const string input){
     bitset<32>binary(number);
     return binary.to_string();
 }
+// connecting the functions
+int main() {
+    string input = parse_input();
+    string_binary = to_binary(input);
+}
