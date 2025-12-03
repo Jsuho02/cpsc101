@@ -21,16 +21,16 @@ bool is_hex(const string input) {
 }
 // Function for converting to binary
 string to_binary(const string input){
-    unsigned int number:
+    unsigned int number;
     
     if (is_hex(input)){
-        number = stoul(input, nullptr,16):
+        number = stoul(input, nullptr,16);
     }else{
-        number = stoul(input, nullptr,10):
+        number = stoul(input, nullptr,10);
     }
     // converting to binary using bitset
     bitset<32>binary(number);
-    return binary to_strin();
+    return binary.to_string();
 }
     }
     }
